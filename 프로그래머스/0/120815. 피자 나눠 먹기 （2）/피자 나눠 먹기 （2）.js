@@ -9,7 +9,7 @@ function solution(n) {
     };
     // 최소공배수 구하기
     const lcm= (a,b )=>{
-        return (a*b)/ gcd(a,b);
+        return (a*b)/ gcd(a,b);//최소송배수*최대공약수=A*N
     };
     
     
